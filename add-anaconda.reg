@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Anaconda]
+@="Open Anaconda Prompt here"
+"Icon"="C:\\ProgramData\\Anaconda3\\Menu\\anaconda.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Anaconda\command]
+@="C:\\ProgramData\\Anaconda3\\pythonw.exe C:\\ProgramData\\Anaconda3\\cwp-modified.py C:\\ProgramData\\Anaconda3 \"%V\" cmd.exe \"/K\" C:\\ProgramData\\Anaconda3\\Scripts\\activate.bat C:\\ProgramData\\Anaconda3"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Anaconda]
+@="Open Anaconda Prompt here"
+"Icon"="C:\\ProgramData\\Anaconda3\\Menu\\anaconda.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Anaconda\command]
+@="C:\\ProgramData\\Anaconda3\\pythonw.exe C:\\ProgramData\\Anaconda3\\cwp-modified.py C:\\ProgramData\\Anaconda3 \"%V\" cmd.exe \"/K\" C:\\ProgramData\\Anaconda3\\Scripts\\activate.bat C:\\ProgramData\\Anaconda3"
